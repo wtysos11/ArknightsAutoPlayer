@@ -25,12 +25,9 @@ class arknightsAutoPlayer:
             time.sleep(1)
         pyautogui.click(1570,713)
         while not self.checkBattleEnd():
-            print('Checking battle end')
             time.sleep(1)
             if self.CheckLevelUp():
-                print('level up')
                 pyautogui.click(1548,460)
-        print('get out')
         pyautogui.click(1548,460)
         pyautogui.click(1548,460)
         pyautogui.click(1548,460)
